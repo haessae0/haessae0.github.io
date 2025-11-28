@@ -28,7 +28,8 @@ url: "https://haessae0.github.io" # the base hostname & protocol for your site, 
 github_username: haessae0
 
 # Build settings
-theme: plainwhite
+# theme: plainwhite  # 로컬 개발용 (주석 처리)
+remote_theme: samarsault/plainwhite-jekyll  # GitHub Pages용
 plugins:
   - jekyll-feed
 
