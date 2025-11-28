@@ -7,13 +7,13 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.4.1"
+
+# GitHub Pages와 로컬 환경 모두에서 작동하도록 github-pages gem 사용
+gem "github-pages", group: :jekyll_plugins
+
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "plainwhite"
-# gem "minima", "~> 2.5"
-# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
-# uncomment the line below. To upgrade, run `bundle update github-pages`.
-# gem "github-pages", group: :jekyll_plugins
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"

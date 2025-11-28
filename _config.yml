@@ -29,7 +29,6 @@ github_username: haessae0
 
 # Build settings
 theme: plainwhite
-remote_theme: samarsault/plainwhite-jekyll
 plugins:
   - jekyll-feed
 
