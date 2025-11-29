@@ -325,3 +325,63 @@
     font-size: 0.9em !important;
   }
 }
+
+/* 본문 글씨 색상 개선 - 시인성 향상 */
+/* 라이트 모드: 더 진한 색상으로 변경 */
+.post p,
+.post li,
+.post,
+.content p,
+.content li,
+article p,
+article li {
+  color: #1a1a1a !important;
+}
+
+/* 다크 모드: 더 밝은 색상으로 변경 */
+.dark .post p,
+.dark .post li,
+.dark .post,
+.dark .content p,
+.dark .content li,
+.dark article p,
+.dark article li {
+  color: #f0f0f0 !important;
+}
+
+/* 헤딩 색상도 개선 */
+.post h1,
+.post h2,
+.post h3,
+.post h4,
+.post h5,
+.post h6 {
+  color: #000 !important;
+}
+
+.dark .post h1,
+.dark .post h2,
+.dark .post h3,
+.dark .post h4,
+.dark .post h5,
+.dark .post h6 {
+  color: #fff !important;
+}
+
+/* 링크 색상 가독성 개선 */
+.post a {
+  color: #0066cc !important;
+}
+
+.dark .post a {
+  color: #66b3ff !important;
+}
+
+.post a:hover {
+  color: #0052a3 !important;
+  text-decoration: underline !important;
+}
+
+.dark .post a:hover {
+  color: #99ccff !important;
+}
