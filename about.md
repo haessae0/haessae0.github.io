@@ -4,15 +4,31 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+안녕하세요. 개발자 박민수입니다.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+## About Me
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+지식을 모으고 정리하는 공간을 만들고자 이 블로그를 시작했습니다.
 
+개발 과정에서의 시행착오와 기술적 고민들을 기록하며 배운 것들을 체계적으로 정리하고자 합니다.
 
-[jekyll-organization]: https://github.com/jekyll
+## What I Do
+
+- 다양한 기술 스택을 활용한 개발
+- 문제 해결 과정에서의 학습과 성장
+- 지속적인 기술 탐구와 실험
+
+## Contact
+
+- GitHub: [@haessae0](https://github.com/haessae0)
+- Email: haessae0@gmail.com
+
+## Blog Purpose
+
+이 블로그는 단순히 지식을 나열하는 곳이 아닌 개발하며 마주한 문제들과 그 해결 과정을 진솔하게 담는 공간으로 사용하려고 합니다.
+
+작은 시행착오도 누군가에게는 귀중한 경험이 될 수 있다고 믿습니다!
+
+앞으로 이곳에서 다양한 개발 경험과 기술적 인사이트를 공유하겠습니다.
+
+감사합니다.

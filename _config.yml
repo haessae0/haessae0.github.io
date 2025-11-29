@@ -29,9 +29,16 @@ github_username: haessae0
 
 # Build settings
 # theme: plainwhite  # 로컬 개발용 (주석 처리)
-remote_theme: samarsault/plainwhite-jekyll  # GitHub Pages용
+remote_theme: samarsault/plainwhite-jekyll # GitHub Pages용
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# Pagination settings
+paginate: 10
+paginate_path: "/page:num/"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -58,11 +65,29 @@ plainwhite:
   tagline: Developer
   date_format: "%b %-d, %Y"
 
-  disqus_shortname: games
-
   analytics_id: "G-5JCCK2B3PX"
 
   portfolio_image: "assets/portfolio.png" # the path from the base directory of the site to the image to display (no / at the start)
+
+  sitemap: true
+
+  disqus_shortname: games
+
+  dark_mode: true
+
+  search: true
+
+  # Enable condensed home layout
+  condensed_mobile: true
+
+  # Navigation menu
+  navigation:
+    - title: Home
+      url: "/"
+    - title: Categories
+      url: "/categories"
+    - title: About
+      url: "/about"
 
   social_links:
     # twitter: samarsault
