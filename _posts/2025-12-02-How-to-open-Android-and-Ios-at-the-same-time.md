@@ -2,8 +2,8 @@
 layout: post
 title: "[Mac][RN] 터미널 상에서 안드로이드와 IOS 에뮬레이터 동시에 실행하는 방법"
 date: 2025-12-02 14:10:00 +0900
-categories: [Mac]
-tags: [Mac, Android, Ios, RN]
+categories: [React Native]
+tags: [Mac, Android, Ios]
 ---
 
 # 개요
